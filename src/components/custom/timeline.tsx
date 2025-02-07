@@ -13,6 +13,7 @@ export function Timeline() {
           endYear={null}
           jobTitle="Backend Developer in a Angola delivery company (current)"
           companyName="Mamboo"
+          imageUrl="/images/mamboo.jpg"
         />
 
         <WorkDetails
@@ -20,12 +21,14 @@ export function Timeline() {
           endYear={null}
           jobTitle="Fullstack Developer"
           companyName="FinderUp"
+          imageUrl="/images/saopaulo.webp"
         />
         <WorkDetails
           startYear={2021}
           endYear={2022}
           jobTitle="Backend Stack Developer"
           companyName="Autono.dev"
+          imageUrl="/images/joaopessoa.jpg"
         />
         <div className="hidden lg:block absolute h-full w-0 border-l border-dashed border-white/50" />
       </div>
