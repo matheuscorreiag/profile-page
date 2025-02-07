@@ -1,3 +1,4 @@
+import { ViewMoreButton } from "@/components/custom/view-more";
 import {
   WorkDetails,
   WorkDetailsProps,
@@ -29,7 +30,7 @@ const jobs: WorkDetailsProps[] = [
 ];
 export function Timeline() {
   return (
-    <div className="flex flex-col text-white py-16 xl:py-32 bg-neutral-950 h-full relative ">
+    <div className="flex flex-col text-white py-16 xl:py-32 bg-neutral-950 h-full relative overflow-hidden border-b border-zinc-800">
       <h1 className="whitespace-nowrap text-center text-3xl font-bold leading-tight lg:text-[3rem] lg:leading-normal">
         Timeline
       </h1>
@@ -41,9 +42,7 @@ export function Timeline() {
       </div>
 
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
-        <Button className="h-11 border border-[#fa29bb] hover:border-[#fa29bb]/80">
-          View more
-        </Button>
+        <ViewMoreButton />
       </div>
     </div>
   );
