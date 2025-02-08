@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col w-full max-w-full ">
-      <div className="flex w-full h-full text-white pt-28 flex-col items-center justify-center flex-1 py-16 xl:py-32">
+      <div className="flex w-full h-full text-white pt-28 flex-col items-center justify-center flex-1 py-16 xl:py-32 mb-16 px-page">
         <ProfileSection />
       </div>
       <Timeline />
