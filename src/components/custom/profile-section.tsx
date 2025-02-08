@@ -16,9 +16,12 @@ export function ProfileSection() {
           <h2 className="mt-2 lg:mt-3 lg:text-2xl">Software Engineer</h2>
         </div>
         <div className="mt-4  text-zinc-400 font-light md:max-w-xs lg:mt-9 lg:text-[1.375rem]">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>
+            Passionate about building software and keep improving myself in it.
+          </p>
           <p className="mt-4 lg:mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Expert in the Javascrit world, with a strong background in React and
+            Node.js.
           </p>
         </div>
         <div className="mt-3 flex items-center  lg:mt-6 w-full space-x-4">
