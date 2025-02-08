@@ -6,14 +6,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full">
-      <div
-        className="flex w-full h-full text-white pt-28 flex-col
-                items-center justify-center flex-1 border-b border-zinc-800 py-16 xl:py-32 px-page"
-      >
+    <div className="flex flex-col w-full max-w-full ">
+      <div className="flex w-full h-full text-white pt-28 flex-col items-center justify-center flex-1 py-16 xl:py-32">
         <ProfileSection />
       </div>
-
       <Timeline />
       <footer className="flex items-center justify-center gap-x-8 text-white p-8">
         <Link href="https://github.com/matheuscorreiag" target="_blank">

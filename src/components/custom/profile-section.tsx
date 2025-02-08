@@ -10,12 +10,12 @@ export function ProfileSection() {
     <aside className="flex flex-row justify-between lg:justify-center gap-x-20">
       <div className="flex flex-col">
         <div className="flex flex-col">
-          <h1 className="whitespace-nowrap text-3xl font-bold leading-tight lg:text-[3.5rem] lg:leading-normal">
+          <h1 className="whitespace-nowrap text-3xl font-bold  lg:text-[3.5rem]">
             Matheus Correia
           </h1>
           <h2 className="mt-2 lg:mt-3 lg:text-2xl">Software Engineer</h2>
         </div>
-        <div className="mt-4 leading-[1.8] text-zinc-400 font-light md:max-w-xs lg:mt-9 lg:text-[1.375rem]">
+        <div className="mt-4  text-zinc-400 font-light md:max-w-xs lg:mt-9 lg:text-[1.375rem]">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p className="mt-4 lg:mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
