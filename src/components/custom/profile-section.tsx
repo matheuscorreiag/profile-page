@@ -20,8 +20,8 @@ export function ProfileSection() {
             Passionate about building software and keep improving myself in it.
           </p>
           <p className="mt-4 lg:mt-6">
-            Expert in the Javascrit world, with a strong background in React and
-            Node.js.
+            Expert in the Javascript world, with a strong background in React
+            and Node.js.
           </p>
         </div>
         <div className="mt-3 flex items-center  lg:mt-6 w-full space-x-4">
